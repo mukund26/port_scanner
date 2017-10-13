@@ -20,7 +20,7 @@ def main():
 	#exception handling
   try:
 		IP= str(raw_input("[>]Input the host to be scanned: "))
-		port_list = str(raw_input("[>]Enter the comma seperated list of ports to be scanned: "))
+		port_list = str(raw_input("[>]Enter the comma-separated list of ports to be scanned: "))
 		tgtPorts = port_list.split(',')
 		print tgtPorts
 		if (IP == None) | (tgtPorts[0] == None):
@@ -39,7 +39,7 @@ def main():
 		print '[*]Closed ports'
 		for i in closed_port:#print closed ports
 			print '[*] '+str(i)
-	except Exception as e:
+  except Exception as e:
 		print '[!]Error : '+str(e)
 		os._exit(1)
 	

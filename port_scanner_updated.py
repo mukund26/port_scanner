@@ -40,7 +40,7 @@ def main():
 		print '[*]Closed ports'
 		for i in closed_port:#print closed ports
 			print '[*] '+str(i)
-  except Exception as e:
+  	except Exception as e:
 		print '[!]Error : '+str(e)
 		os._exit(1)
 	

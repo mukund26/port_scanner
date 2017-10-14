@@ -1,12 +1,18 @@
-# port_scanner
+# Port Scanner
 
-A tool to check a host's open ports using python
+This program helps to scan open ports running on the system.
 
-## Usage
+Getting Started
 
-```
-% python port_scanner_updated.py
-```
+First things first, clone this repository on to your local machine for development and testing purposes. 
+
+Prerequisites
+
+You need Python <version> installed on your local machine to execute this program.
+
+Built With
+
+- Python
 
 You will then be presented with a prompt to input the host to be scanned (IP or hostname), followed by a comma-separated list of ports to scan. The below is an example of the output:
 
@@ -20,4 +26,8 @@ You will then be presented with a prompt to input the host to be scanned (IP or 
 [*] 53
 [*]Closed ports
 [*] 80
-```
+
+License 
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+

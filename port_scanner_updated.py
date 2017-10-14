@@ -17,8 +17,9 @@ def connScan(IP,Port):
 		closed_port.append(Port)
 
 def main():
+	
 	#exception handling
-  try:
+  	try:
 		IP= str(raw_input("[>]Input the host to be scanned: "))
 		port_list = str(raw_input("[>]Enter the comma-separated list of ports to be scanned: "))
 		tgtPorts = port_list.split(',')

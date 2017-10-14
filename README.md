@@ -26,6 +26,7 @@ You will then be presented with a prompt to input the host to be scanned (IP or 
 [*] 53
 [*]Closed ports
 [*] 80
+```
 
 License 
 

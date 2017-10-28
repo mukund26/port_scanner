@@ -4,7 +4,7 @@ This program helps to scan open ports running on the system.
 
 Getting Started
 
-First things first, clone this repository on to your local machine for development and testing purposes. 
+First things first, clone this repository on to your local machine for development and testing purposes.Modify the code in any way you want but do not fuck up the code completely.
 
 Prerequisites
 
